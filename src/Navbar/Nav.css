@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+}
+ul {
+    list-style: none;
+}
+.nav {
+    display: inline;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    line-height: 26px;
+    font-size: 20px;
+}
+.nav:hover {
+    background-color: #CCB8D1;
+}
