@@ -13,4 +13,5 @@ ul {
 }
 .nav:hover {
     background-color: #CCB8D1;
+    cursor:pointer;
 }

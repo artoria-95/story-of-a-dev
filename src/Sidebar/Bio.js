@@ -1,7 +1,6 @@
 import React from 'react';
-import Card from '../UI/Card';
 import foto from '../Assets/dreamdev.jpeg';
-import './Bio.css';
+import './card.css';
 
 export default function Bio(){
     return (
@@ -9,9 +8,9 @@ export default function Bio(){
             <div className="bio-content">
             
             <img src={foto} alt="ana" className="photo"/>
-            <h4 className="bio-title">Sobre la autora</h4>
-            <p className="bio-p">cosas para decir en un pequeño parrafo a modo de resumen de la bio</p>
-            <button className="more">leer mas</button>
+            <h2 className="bio-title">Sobre la autora</h2>
+            <p className="bio-p">Estoy loca.</p>
+            <button className="more">Leer más</button>
             
         </div>
         </div>

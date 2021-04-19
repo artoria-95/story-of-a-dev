@@ -8,7 +8,8 @@ export default function Navbar(){
                 <li className="nav">Inicio</li>
                 <li className="nav">Articulos</li>
                 <li className="nav">Proyectos</li>
-                <li className="nav">Autora</li>
+                <li className="nav">Dibujos</li>
+                <li className="nav">Biografía</li>
                 <li className="nav">Contacto</li>
             </ul>
         </div>
