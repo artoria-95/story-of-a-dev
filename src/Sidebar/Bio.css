@@ -1,0 +1,29 @@
+.photo {
+    height: 200px;
+    position: relative;
+    margin-left: 25%;
+    margin-right:25%;
+    display: flex;
+}
+.bio-content {
+    width: 350px;
+    padding: 10px;
+    background-color: #452B29;
+    text-align: center;
+    color: #E6E2DF;
+}
+
+.bio-content, .photo {
+    border-radius: 5px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    margin: 10px;
+    
+}
+
+/* .card {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  } */
