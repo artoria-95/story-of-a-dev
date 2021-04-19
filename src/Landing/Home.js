@@ -1,19 +1,22 @@
-import React from 'react';
-import './Home.css';
+import React from "react";
+import "./Home.css";
+import MainArt from "./MainArt";
+import MainDrawings from "./MainDrawings";
+import MainProjects from "./MainProjects";
 
-export default function Home(){
-    return (
-        <div>
-        <div className="main-art">Articulo principal
-        <button>Leer Mas</button>
-        <button>Ver mas articulos</button>
-        </div>        
-        <div>Proyectos destacados
-            <button>Ver proyecto</button>
-            <button>Ver mas proyectos</button>
-        </div>
-        <div className="drawings">Dibujos destacados</div>
-        <div></div>
-        </div>
-    )
+export default function Home() {
+  return (
+    <div className="home-wrapper">
+      <section className="main-art">
+        <MainArt />
+      </section>
+      <section className="main-projects">
+      <MainProjects />
+      </section>
+      <section className="main-drawings">
+      <MainDrawings />
+      </section>
+      <div></div>
+    </div>
+  );
 }

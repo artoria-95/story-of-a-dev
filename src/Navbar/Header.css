@@ -3,6 +3,9 @@
     margin-left: 7%;
 }
 .header {
-    width: 60vw;
+    width: 78vw;
     position: fixed;
+    background-color: #e0f6f9d2;
+    z-index: 1000;
+    top: 0;
 }
