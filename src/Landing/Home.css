@@ -1,8 +1,8 @@
-
 .home-wrapper {
-    border: 2px solid black;
     top: 12rem;
     position:relative;
     width: 70vw;
     margin: 2%;
 }
+
+/* border: 2px solid black; */

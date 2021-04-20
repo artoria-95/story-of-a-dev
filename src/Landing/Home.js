@@ -7,16 +7,11 @@ import MainProjects from "./MainProjects";
 export default function Home() {
   return (
     <div className="home-wrapper">
-      <section className="main-art">
-        <MainArt />
-      </section>
-      <section className="main-projects">
+      <MainArt />
+
       <MainProjects />
-      </section>
-      <section className="main-drawings">
+
       <MainDrawings />
-      </section>
-      <div></div>
     </div>
   );
 }
