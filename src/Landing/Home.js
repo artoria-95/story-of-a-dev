@@ -12,6 +12,7 @@ export default function Home() {
       <MainProjects />
       <div className="separador" />
       <MainDrawings />
+      <div className="separador" />
     </div>
   );
 }

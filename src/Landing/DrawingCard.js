@@ -1,15 +1,17 @@
-import React from 'react';
-import Button from '../UI/Button';
+import React from "react";
+import Button from "../UI/Button";
+import "./DrawingCard.css";
 
-const DrawingCard = (props)=>{
-return (
+const DrawingCard = (props) => {
+  return (
     <div className="drawing-wrapper">
-        <img src={props.photo} />
-        <h2>{props.name}</h2>
-        <p>{props.description}</p>
-        <Button value="Ver" />
+      <img src={props.photo} className="dibujo" />
+      <div className="drawing-txt">
+        <h2>{props.name} <Button value="Ver" /></h2>
+                
+      </div>
     </div>
-)
+  );
 };
 
 export default DrawingCard;
