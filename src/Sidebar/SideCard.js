@@ -1,13 +1,17 @@
-import React from "react";
+import React from 'react';
+import Button from '../UI/Button';
+//import foto from '../Assets/dreamdev.jpeg';
+import './SideCard.css';
 
 const SideCard = (props) => {
+
   return (
     <div className="sidecard">
       <div className="sidecard-content">
-        <img src={foto} alt="ana" className="photo" />
-        <h2 className="sidecard">Sobre la autora</h2>
-        <p className="bio-p">Estoy loca.</p>
-        <button className="more">Leer más</button>
+        {props.children}
+        <h2>{props.about}</h2>
+        <p className="bio-p">{props.summary}</p>
+        <Button value="Leer más" />
       </div>
     </div>
   );

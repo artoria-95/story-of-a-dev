@@ -5,7 +5,7 @@
     margin-right:25%;
     display: flex;
 }
-.bio-content {
+.sidecard-content {
     width: 300px;
     padding: 10px;
     background-color: #5a6392;
@@ -13,28 +13,16 @@
     color: #E6E2DF;
 }
 
-.bio-content, .photo {
+.sidecard-content, .photo {
     border-radius: 5px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
 }
 
-.card {
+.sidecard {
     margin: 10px;
     
 }
-.more {
-    background-color: #E6E2DF;
-    color: #452B29;
-    font-weight: 700;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-.more:hover{
-    background-color: #452B29;
-    color: #E6E2DF;
-    transform: scale(1.2);
-}
+
 
 /* .card {
     border-radius: 12px;
