@@ -1,0 +1,34 @@
+.preview-wrapper {
+    width: 350px;
+    height: 500px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);    
+    
+  }
+  .foto {
+      max-width: 300px;
+      max-height: 270px;
+  }
+  .preview-header {
+    background-color: #E0FEFF;
+    border-bottom: 2px solid #9ecbf0;
+    padding: 5px;
+    font-size: 20px;    
+  }
+  
+  .preview-header h1 {
+    margin-left: 5px;
+  }
+  
+  .preview-footer{
+    background-color: #E0FEFF;
+    margin-bottom: 0;
+    padding: 5px;
+    position: relative;
+    text-align: right;
+  }
+  
+  .preview-content{
+    padding: 1rem;
+    height: 325px;
+    background-color: #E0FEFF;
+  }

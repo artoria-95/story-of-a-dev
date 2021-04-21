@@ -1,0 +1,14 @@
+.color1 {
+    color: #E0FEFF;
+    background-color: #87bce8;
+    border-color: #75deff;
+    color-adjust: #a9b9d9;
+    column-rule-color: #949dd4;
+
+}.color1 {
+    color: #c0e8eb;
+    background-color: #9ecbf0;
+    border-color: #b3beff;
+    color-adjust: #c9bee8;
+    column-rule-color: #eeccff;
+}

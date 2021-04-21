@@ -1,4 +1,41 @@
-.card {
-    border-radius: 12px;
-    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-  }
+.card-wrapper {
+  height: max-content;
+  border-radius: 5px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  
+}
+
+.card-header {
+  background-color: #c0e8eb;
+  border-bottom: 2px solid #9ecbf0;
+  padding: 0.07rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 25px;
+  position: relative;
+  
+}
+
+.card-header h1 {
+  margin-left: 1rem;
+}
+
+.card-foot{
+  background-color: #9ecbf0ad;
+  margin-bottom: 0;
+  padding: 0.3rem;
+  position: relative;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: right;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: #c0e8eb;
+  
+}
