@@ -7,8 +7,7 @@ const DrawingCard = (props) => {
     <div className="drawing-wrapper">
       <img src={props.photo} className="dibujo" />
       <div className="drawing-txt">
-        <h2>{props.name} <Button value="Ver" /></h2>
-                
+        <h2>{props.name} <Button value="Ver" /></h2>                
       </div>
     </div>
   );

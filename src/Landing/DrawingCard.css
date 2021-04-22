@@ -1,21 +1,33 @@
 .drawing-wrapper {
-     
-    position: relative;
-    display: inline-block;
-    
+  position: relative;
+  display: inline-block;
 }
 
 .drawing-wrapper img {
-    max-width: 400px;
-      max-height: 500px;
-      position: relative;
-      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  max-width: 400px;
+  max-height: 500px;
+  position: relative;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  filter: brightness(60%);
+}
+
+.drawing-wrapper img:hover {
+  filter: brightness(100%);
+  transition: 0.5s;
 }
 .drawing-txt {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: max-content;
-    background-color: rgba(255, 255, 255, 0.281);
-    padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: max-content;
+  background-color: rgba(255, 255, 255, 0.281);
+  padding: 10px;
+}
+
+.drawing-wrapper .drawing-txt {
+  display: none;
+}
+.drawing-wrapper:hover .drawing-txt {
+  display: block;
+  transform: scaleX(20%);
 }
