@@ -19,7 +19,7 @@ export default function MainProjects() {
     {
       name: "PC-Creative",
       photo: ecommerce,
-      description: "Proyecto de E-Commerce desarrollado junto a un equipo de 7 personas en modalidad de examen grupal, durante la etapa de HENRY Labs."
+      description: "Proyecto de E-Commerce desarrollado junto a un equipo de 7 personas a modo de primer examen grupal, durante la etapa de HENRY Labs."
     },
     {
         name: "Random App",

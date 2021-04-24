@@ -13,8 +13,7 @@ export default function Sidebar() {
     },
     {
       about: "Sobre la página",
-      summary:
-        "Expetenda tincidunt in sed, ex partem placerat sea, porro commodo exeam. His putant aeterno interesset at. Usu ea mundi tincidunt, omnium virtute aliquando ius ex. Ea aperiri sententiae duo. Usu nullam dolorum quaestio ei, sit vidit facilisis ea. Per ne impedit iracundia neglegentur. Consetetur neglegentur eum ut, vis animal legimus inimicus id.",
+      summary: "Inició como una suerte de blog y a medida que se fué desarrollando la idea se convirtió en una página personal y portfolio 2.0, resultando en un pantallazo de lo que pasa por el cerebro de su creadora.",
       link: "/about",
     },
   ];
