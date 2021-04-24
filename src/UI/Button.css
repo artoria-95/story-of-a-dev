@@ -13,3 +13,14 @@
     transform: scale(1.4);
     cursor: pointer;
     }
+
+.err-page {
+    margin-top: 15rem;
+    margin-left: 5rem;
+}
+.err-page h1 {
+    font-size: 70px;
+}
+.err-page p {
+    font-size: 30px;
+}

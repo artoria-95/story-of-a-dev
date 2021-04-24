@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../UI/Button';
 import DrawingCard from './DrawingCard';
 import '../UI/Card.css';
+import { Link } from 'react-router-dom';
 
 export default function MainDrawings(){
     const btnDraw = 'Ver más dibujos';
@@ -30,7 +31,7 @@ export default function MainDrawings(){
         
                </div>
                <footer className="card-foot">
-                   <Button value={btnDraw}/>
+                  <Link to="/drawings"> <Button value={btnDraw}/></Link>
                </footer>
            </section>
         </div>

@@ -2,25 +2,29 @@ import React from "react";
 import Button from "../UI/Button";
 import "../UI/Card.css";
 import Preview from "./Preview";
+import ecommerce from '../Assets/PC-creative.png';
+import random from '../Assets/random-app.png';
+import happ from '../Assets/Henry-app.png';
+import { Link } from "react-router-dom";
+
 
 export default function MainProjects() {
   const btnProj = "Ver más proyectos";
   const prev = [
     {
       name: "Henry App",
-      photo:
-        "https://th.bing.com/th/id/OIP.CXx8FRA9mctVCzZOpf20vAHaEo?w=298&h=186&c=7&o=5&dpr=1.5&pid=1.7",
-        description: "Una plataforma educativa en la cual accedes a tu material de estudio"
+      photo: happ,
+        description: "Una plataforma pensada para alumnos de HENRY, donde pueden acceder a su material de estudio, Seminarios grabados, ver su estado de cuenta y acceder a una bolsa de trabajo una vez graduados. Desarrollado a modo de examen final grupal, en un equipo de 7 personas."
     },
     {
-      name: "Ecommerce",
-      photo: "https://th.bing.com/th/id/OIP.AH4BxL02VRz-eucqCKnwLgHaFj?w=236&h=180&c=7&o=5&dpr=1.5&pid=1.7",
-      description: "Venta de hardware"
+      name: "PC-Creative",
+      photo: ecommerce,
+      description: "Proyecto de E-Commerce desarrollado junto a un equipo de 7 personas en modalidad de examen grupal, durante la etapa de HENRY Labs."
     },
     {
         name: "Random App",
-        photo: "https://th.bing.com/th/id/OIP.diqqd7wFDANsy1csUHK3mQHaE6?w=256&h=180&c=7&o=5&dpr=1.5&pid=1.7",
-        description: "Mix de idioteces"
+        photo: random,
+        description: "(¡En construcción!) Una aplicación desarrollada como proyecto personal, llena de sorpresas a modo de entretenimiento, que se fueron desarrollando a la par del conocimiento de la autora. "
       }
   ];
   return (
@@ -37,7 +41,7 @@ export default function MainProjects() {
           
         </div>
         <footer className="card-foot">
-          <Button value={btnProj} />
+          <Link to="/projects"><Button value={btnProj} /></Link>
         </footer>
       </div>
     </div>

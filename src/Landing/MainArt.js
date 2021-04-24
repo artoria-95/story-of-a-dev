@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import Button from "../UI/Button";
 import '../UI/Card.css';
 export default function MainArt(props) {
@@ -26,7 +27,7 @@ export default function MainArt(props) {
         </div>
         <footer className="card-foot">
           <Button value={btn1} />
-          <Button value={btn2} />
+          <Link to="/articles"><Button value={btn2} /></Link>
         </footer>
       </section>
     </div>

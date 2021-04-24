@@ -7,6 +7,9 @@
   .foto {
       max-width: 300px;
       max-height: 270px;
+      background: black;
+      box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);    
+    
   }
   .preview-header {
     background-color: #E0FEFF;

@@ -1,16 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Nav.css';
 
 export default function Navbar(){
     return (
         <div className="navbar">
             <ul>
-                <li className="nav" onClick={""}>Inicio</li>
-                <li className="nav" onClick={""}>Articulos</li>
-                <li className="nav" onClick={""}>Proyectos</li>
-                <li className="nav" onClick={""}>Dibujos</li>
-                <li className="nav" onClick={""}>Biografía</li>
-                <li className="nav" onClick={""}>Contacto</li>
+                <li className="nav"><Link className="links" to="/">Inicio</Link></li>
+                <li className="nav"><Link className="links" to="/articles">Articulos</Link></li>
+                <li className="nav"><Link className="links" to="/projects">Proyectos</Link></li>
+                <li className="nav"><Link className="links" to="/drawings">Dibujos</Link></li>
+                <li className="nav"><Link className="links" to="/biography">Biografía</Link></li>
+                <li className="nav"><Link className="links" to="/contact">Contacto</Link></li>
             </ul>
         </div>
     );
