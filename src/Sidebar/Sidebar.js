@@ -13,14 +13,14 @@ export default function Sidebar() {
     },
     {
       about: "Sobre la página",
-      summary: "Inició como una suerte de blog y a medida que se fué desarrollando la idea se convirtió en una página personal y portfolio 2.0, resultando en un pantallazo de lo que pasa por el cerebro de su creadora.",
+      summary: "Suerte de blog, galería de arte y portfolio 2.0, resultando en un pantallazo de lo que pasa por el cerebro de su creadora.",
       link: "/about",
     },
   ];
   return (
     <div className="sidebar">
       <SideCard about={sideData[0].about} summary={sideData[0].summary} link={sideData[0].link}>
-        <img src={foto} className="photo" />
+        <img src={foto} alt="foto" className="photo" />
       </SideCard>
       <SideCard
         foto="null"

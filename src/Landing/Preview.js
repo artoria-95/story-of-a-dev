@@ -10,7 +10,7 @@ const Preview = (props) => {
           <h2>{props.name}</h2>
         </header>
         <div className="preview-content">
-          <img src={props.photo} className="foto" />
+          <img src={props.photo} alt="prev" className="foto" />
           <p>{props.description}</p>
         </div>
         <footer className="preview-footer">

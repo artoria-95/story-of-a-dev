@@ -37,5 +37,9 @@
   justify-content: space-evenly;
   padding: 1rem;
   background-color: #c0e8eb;
-  
+    
+}
+
+.card-body p {
+  font-size: 20px;
 }

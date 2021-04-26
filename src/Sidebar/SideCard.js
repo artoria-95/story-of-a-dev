@@ -1,11 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Button from '../UI/Button';
+import React from "react";
+import { Link } from "react-router-dom";
+import Button from "../UI/Button";
 //import foto from '../Assets/dreamdev.jpeg';
-import './SideCard.css';
+import "./SideCard.css";
 
 const SideCard = (props) => {
-
   return (
     <div className="sidecard">
       <div className="sidecard-content">

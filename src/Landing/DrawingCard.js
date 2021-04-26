@@ -5,7 +5,7 @@ import "./DrawingCard.css";
 const DrawingCard = (props) => {
   return (
     <div className="drawing-wrapper">
-      <img src={props.photo} className="dibujo" />
+      <img src={props.photo} alt="drawing" className="dibujo" />
       <div className="drawing-txt">
         <h2>{props.name} <Button value="Ver" /></h2>                
       </div>
